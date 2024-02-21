@@ -23,13 +23,13 @@ img {
 
 @media (min-width: 100px) and (max-width: 318px) {
     h1 {
-      font-size: 25.5vw;
+      font-size: 1em;
     }
 }
 
 @media (min-width: 319px) and (max-width: 480px) {
     h1 {
-      font-size: 25.5vw;
+      font-size: 1.5em;
     }
 }
 
