@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psicóloga Angelica Vilarim</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .nav {
+            background-color: #FFCAD4;
+            width: 100%;
+            height: 30%;
+        }
+        .middle {
+            background-color: #40679E;
+            height: 60%;
+            width: 100%;
+        }
+
+        .footer {
+            background-color: #1B3C73;
+            height: 10%;
+            width: 100%;
+        }
+        
+        h1, p, li{
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+       
+
+        .nav>div{
+            text-align: center;
+            width: 50%;
+            margin-left: 25%;
+        }
+
+        .nav h1{
+            padding-top: 30px;
+            color: aliceblue;
+            
+        }
+
+        .nav img{
+            width: 120px;
+            height: 120px;
+            margin-top:20px;
+            border-radius: 70px;
+            border: 3px white solid;
+        }
+
+        .middle{
+            padding-top: 20px;
+            text-align: center;
+        }
+
+        .middle h1, li{
+            margin: 10px;
+            color: azure;
+        }
+
+        .middle ul{
+            list-style: none;
+        }
+
+
+        .footer p{
+            text-align: center;
+            padding-top: 30px;
+            color: #FFCAD4;
+        }
+        
+        .footer a{
+            text-decoration: none;
+        }
+
+        .footer a:link, a:visited{
+            color: #FFCAD4;
+        }
+        
+        #experiencia{
+            padding-top: 10px;
+        }
+
+        @media (min-width: 100px) and (max-width: 318px) {
+            h1{
+                font-size: 1em;
+            }
+            .nav img {            
+                     
+            }
+            .middle h1{
+                margin-top: 0px;
+            }
+            .footer p{                
+                padding-top: 5%;
+            }
+        }
+
+        @media (min-width: 319px) and (max-width: 480px) {
+            h1{
+                font-size: 1em;
+            }
+            
+            .nav img {            
+           
+            }
+            
+            .middle h1{
+                margin-top: 0px;
+            }
+            
+            .footer p{                
+                padding-top: 5px;
+            }
+        }   
+
+        @media (min-width: 481px) and (max-width: 1200px) {
+            h1{
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="nav" id="nav">
+            <div>
+            <h1>Angelica Vilarim Psicóloga</h1>
+            <img src="./img/angelica.jpg" alt="angelica">
+            </div>
+        </div>
+        <div class="middle" id="middle">
+            <h1 id="academico">Acadêmico</h1>
+            <ul>
+                <li>Mestre em Psicanálise pela Universidade Estadual do Rio de Janeiro (2020-2023)</li>
+                <li>Especialista em Saúde Pública pela Fundação Oswaldo Cruz (2014-2016)</li>
+                <li>Especialista em Psicanálise e Saúde Mental pela Universidade Estadual do Rio de Janeiro (2010-2012)</li>
+                <li>
+                    Formada em Psicologia pela Universidade Estadual do Rio de Janeiro (2004-2008)
+                </li>
+            </ul>
+            <h1 id="experiencia">Experiência</h1>
+            <ul>
+                <li>
+                    Psicóloga na e-APP SMS/RJ (2022-2024)
+                </li>
+                <li>Psicóloga no CAPS SMS/RJ (2016-2022)</li>
+                <li>Psicóloga no NASF SMS/RJ (2011-2016)</li>
+                <li>Psicóloga DEGASE (2009-2012)</li>
+            </ul>
+        </div>
+        <div class="footer" id="footer">
+            <p>Para saber mais, entre em contato <span><a href="https://wa.me/qr/LLZRLXNDYCALI1">(21) 99913-3353</a></span></p>
+        </div>
+    </div>
+</body>
+</html>
